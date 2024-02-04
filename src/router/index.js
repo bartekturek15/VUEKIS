@@ -10,26 +10,26 @@ import RegisterForm from '../views/RegisterFormView.vue';
 import DataBaseDnDSpell from '../views/DataBase/DataBaseDnDSpellView.vue';
 import DataBaseDnDMonster from '../views/DataBase/DataBaseDnDMonsterView.vue';
 import DataBaseDnDItem from '../views/DataBase/DataBaseDnDItemView.vue';
-import DataBaseDnDRaceView from '../views/dataBase/DataBaseDnDRaceView.vue';
-import DataBaseDnDSubrace from '../views/dataBase/DataBaseDnDSubraceView.vue';
-import DataBaseDnDClass from '../views/dataBase/DataBaseDnDClassView.vue';
-import DataBaseDnDSubclass from '../views/dataBase/DataBaseDnDSubclassView.vue';
+import DataBaseDnDRaceView from '../views/DataBase/DataBaseDnDRaceView.vue';
+import DataBaseDnDSubrace from '../views/DataBase/DataBaseDnDSubraceView.vue';
+import DataBaseDnDClass from '../views/DataBase/DataBaseDnDClassView.vue';
+import DataBaseDnDSubclass from '../views/DataBase/DataBaseDnDSubclassView.vue';
 
 import DataBaseDnDSpellLiked from '../views/DataBaseLiked/DataBaseDnDLikedSpellView.vue';
 import DataBaseDnDMonsterLiked from '../views/DataBaseLiked/DataBaseDnDLikedMonsterView.vue';
 import DataBaseDnDItemLiked from '../views/DataBaseLiked/DataBaseDnDLikedItemView.vue';
-import DataBaseDnDRaceViewLiked from '../views/dataBaseLiked/DataBaseDnDLikedRaceView.vue';
-import DataBaseDnDSubraceLiked from '../views/dataBaseLiked/DataBaseDnDLikedSubraceView.vue';
-import DataBaseDnDClassLiked from '../views/dataBaseLiked/DataBaseDnDLikedClassView.vue';
-import DataBaseDnDSubclassLiked from '../views/dataBaseLiked/DataBaseDnDLikedSubclassView.vue';
+import DataBaseDnDRaceViewLiked from '../views/DataBaseLiked/DataBaseDnDLikedRaceView.vue';
+import DataBaseDnDSubraceLiked from '../views/DataBaseLiked/DataBaseDnDLikedSubraceView.vue';
+import DataBaseDnDClassLiked from '../views/DataBaseLiked/DataBaseDnDLikedClassView.vue';
+import DataBaseDnDSubclassLiked from '../views/DataBaseLiked/DataBaseDnDLikedSubclassView.vue';
 
 import DataBaseDnDSpellCreated from '../views/DataBaseCreated/DataBaseDnDCreatedSpellView.vue';
 import DataBaseDnDMonsterCreated from '../views/DataBaseCreated/DataBaseDnDCreatedMonsterView.vue';
 import DataBaseDnDItemCreated from '../views/DataBaseCreated/DataBaseDnDCreatedItemView.vue';
-import DataBaseDnDRaceViewCreated from '../views/dataBaseCreated/DataBaseDnDCreatedRaceView.vue';
-import DataBaseDnDSubraceCreated from '../views/dataBaseCreated/DataBaseDnDCreatedSubraceView.vue';
-import DataBaseDnDClassCreated from '../views/dataBaseCreated/DataBaseDnDCreatedClassView.vue';
-import DataBaseDnDSubclassCreated from '../views/dataBaseCreated/DataBaseDnDCreatedSubclassView.vue';
+import DataBaseDnDRaceViewCreated from '../views/DataBaseCreated/DataBaseDnDCreatedRaceView.vue';
+import DataBaseDnDSubraceCreated from '../views/DataBaseCreated/DataBaseDnDCreatedSubraceView.vue';
+import DataBaseDnDClassCreated from '../views/DataBaseCreated/DataBaseDnDCreatedClassView.vue';
+import DataBaseDnDSubclassCreated from '../views/DataBaseCreated/DataBaseDnDCreatedSubclassView.vue';
 
 
 import BySpellId from '../views/ById/BySpellId.vue';
@@ -70,7 +70,7 @@ const routes = [
     },
     {
         path: '/BazaDanychDnD',
-        name: 'dataBaseD&D',
+        name: 'DataBaseD&D',
         component: DataBaseDnD
     },
     {
