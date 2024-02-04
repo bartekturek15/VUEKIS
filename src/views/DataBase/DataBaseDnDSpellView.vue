@@ -170,7 +170,7 @@
         }
     },
     mounted() {
-        axios.get('https://localhost:7095/api/Spell')
+        axios.get('https://kumpleismokibbkservice.azurewebsites.net/api/Spell')
             .then(response => this.items = response.data);
             setTimeout(this.changeLoading, 3000);
 
