@@ -47,9 +47,9 @@ import CreateElementEnemyView from '../views/CreateElement/CreateElementEnemyVie
 import CreateElementEnemyActionView from '../views/CreateElement/CreateElementEnemyActionView.vue';
 import CreateElementItemView from '../views/CreateElement/CreateElementItemView.vue';
 import CreateElementRaceView from '../views/CreateElement/CreateElementRaceView.vue';
-import CreateElementRaceFeatureView from '../views/createElement/CreateElementRaceFeatureView.vue';
+import CreateElementRaceFeatureView from '../views/CreateElement/CreateElementRaceFeatureView.vue';
 import CreateElementSubraceView from '../views/CreateElement/CreateElementSubraceView.vue';
-import CreateElementSubraceFeatureView from '../views/createElement/CreateElementSubraceFeatureView.vue';
+import CreateElementSubraceFeatureView from '../views/CreateElement/CreateElementSubraceFeatureView.vue';
 
 import changePassword from '../views/changePassword.vue';
 import changeUsername from '../views/changeUsername.vue';
@@ -65,7 +65,7 @@ const routes = [
     },
     {
         path: '/TworzenieElementow',
-        name: 'createElement',
+        name: 'CreateElement',
         component: CreateElement
     },
     {
