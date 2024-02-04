@@ -227,7 +227,7 @@ export default {
     {
         this.submitStatus = 'PENDING'
         
-        axios.post('https://localhost:7095/api/Spell', this.spell, {
+        axios.post('https://kumpleismokibbkservice.azurewebsites.net//api/Spell', this.spell, {
                             headers: {
                                 Authorization: 'Bearer ' + localStorage.getItem('token')
                             }
@@ -238,7 +238,7 @@ export default {
                                 localStorage.removeItem('spell');    
                             }, 500)
                             setTimeout(() => {
-                              axios.get('https://localhost:7095/api/Spell')
+                              axios.get('https://kumpleismokibbkservice.azurewebsites.net//api/Spell')
                               .then(response => {
                                 this.spells = response.data
                                 this.id = this.spells[this.spells.length-1].spellId

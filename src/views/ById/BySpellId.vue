@@ -73,7 +73,7 @@ export default {
             this.result = !this.result
         },
         upVote() {
-            axios.get('https://localhost:7095/api/Spell/upvote/' + this.item.spellId, {
+            axios.get('https://kumpleismokibbkservice.azurewebsites.net/api/Spell/upvote/' + this.item.spellId, {
                 headers: {
                                 Authorization: 'Bearer ' + localStorage.getItem('token')
                             }
@@ -83,7 +83,7 @@ export default {
         
         deleted() {
             
-            axios.delete('https://localhost:7095/api/Spell', {
+            axios.delete('https://kumpleismokibbkservice.azurewebsites.net/api/Spell', {
                 headers: {
                                 Authorization: 'Bearer ' + localStorage.getItem('token')
                         },
@@ -92,7 +92,7 @@ export default {
         }
     },
     created() {
-        axios.get('https://localhost:7095/api/Spell/checkifupvote/' + this.id, {
+        axios.get('https://kumpleismokibbkservice.azurewebsites.net/api/Spell/checkifupvote/' + this.id, {
                 headers: {
                                 Authorization: 'Bearer ' + localStorage.getItem('token')
                             }
@@ -103,7 +103,7 @@ export default {
     },
     mounted() {
         console.log(localStorage.getItem('token'))
-        axios.get('https://localhost:7095/api/Spell/id/' + this.id)
+        axios.get('https://kumpleismokibbkservice.azurewebsites.net/api/Spell/id/' + this.id)
             .then(response => this.item = response.data);
 
         if(this.link == null) {
