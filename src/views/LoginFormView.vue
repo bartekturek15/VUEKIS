@@ -162,7 +162,7 @@
             if (isFormCorrect) 
             {
                 this.submitStatus = 'PENDING'
-                axios.post('https://localhost:7095/api/User/login', this.postData)
+                axios.post('https://kumpleismokibbkservice.azurewebsites.net/api/User/login', this.postData)
                 .catch(
                             err => {
                                 this.submitStatus = 'LOGERROR'     
@@ -171,7 +171,7 @@
                     .then( 
                         response => {
                             localStorage.setItem('token', response.data);   
-                            axios.get('https://localhost:7095/api/User/user', {
+                            axios.get('https://kumpleismokibbkservice.azurewebsites.net/api/User/user', {
                             headers: {
                                 Authorization: 'Bearer ' + localStorage.getItem('token')
                             }

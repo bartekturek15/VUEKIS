@@ -144,7 +144,7 @@
             if (isFormCorrect) 
             {
                 this.submitStatus = 'PENDING'
-                axios.post('https://localhost:7095/api/User/register', this.postData)
+                axios.post('https://kumpleismokibbkservice.azurewebsites.net/api/User/register', this.postData)
                         .then( 
                             response => {
                                 setTimeout(() => {
