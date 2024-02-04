@@ -59,10 +59,10 @@
                             <div class=""><input :type="passwordFieldType" class="input inputforpass" id="password" placeholder=" " v-model="postData.password" @blur="v$.postData.password.$touch"  /> 
                                 <label for="password">Hasło</label>
                                 <button v-if="passwordFieldType != 'password'" class="special" type="password" @click="switchVisibility">
-                                <img src="../assets/eye.svg" color="white" width="20" height="25">
+                                <img src="/eye.svg" color="white" width="20" height="25">
                                 </button>
                                 <button v-if="passwordFieldType != 'text'" class="special" type="password" @click="switchVisibility">
-                                    <img src="../assets/eye-slash.svg" color="white" width="20" height="25">
+                                    <img src="/eye-slash.svg" color="white" width="20" height="25">
                                 </button>
                                 <p 
                                 data-aos="fade-right"
@@ -111,7 +111,7 @@
             submitStatus: null,
             password: "",
             passwordFieldType: "password",
-            srcType: "../assets/eye-slash.svg",
+            srcType: "/eye-slash.svg",
             postData: { username: '', password: '', email: '' },
             error : null,
 
@@ -169,7 +169,7 @@
         },
         switchVisibility() {
         this.passwordFieldType = this.passwordFieldType === "password" ? "text" : "password";
-        this.srcType = this.srcType === "../assets/eye-slash.svg" ? "../assets/eye.svg" : "../assets/eye-slash.svg";
+        this.srcType = this.srcType === "/eye-slash.svg" ? "/eye.svg" : "/eye-slash.svg";
         },
     }
     }
@@ -211,7 +211,7 @@
         box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
     }
     .side-image {
-        background-image: url("../assets/sidebar.png");
+        background-image: url("/sidebar.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

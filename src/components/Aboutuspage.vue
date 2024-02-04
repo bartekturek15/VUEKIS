@@ -6,8 +6,8 @@
                 >
                     <div class="col-lg-6 text-center p-3 mt-3">
                         <img :src="text" class="img-fluid rounded" alt="..."
-                                @mouseover="text = '/src/assets/my1.jpg'"
-                                @mouseleave="text = '/src/assets/My.jpg'"
+                                @mouseover="text = '/my1.jpg'"
+                                @mouseleave="text = '/My.jpg'"
                                 data-aos="fade-right"
                                 data-aos-offset="-100"
                                 data-aos-delay="50"
@@ -56,7 +56,7 @@
         name: "aboutuspage",
         data() {
             return {
-                text: '/src/assets/My.jpg'
+                text: '/My.jpg'
             }
         },
         methods: {

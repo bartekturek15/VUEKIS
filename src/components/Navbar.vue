@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <router-link to="/" style="text-decoration: none">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/Dnd-Emblem.png" alt="Logo" width="50" height="28" class="d-inline-block align-text-top">
+                    <img src="/DnD-Emblem.png" alt="Logo" width="50" height="28" class="d-inline-block align-text-top">
                     Kumple i Smoki
                 </a>
             </router-link>
@@ -22,7 +22,7 @@
             <span v-if="user">
                 <div class="dropdown">
                     <button class="btn my-button dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-theme="dark" aria-expanded="false">
-                        <img src="../assets/Whiteperson.svg" color="white" width="20" height="25">
+                        <img src="/Whiteperson.svg" color="white" width="20" height="25">
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li class="ms-1"><div class="dropstart">
@@ -95,7 +95,7 @@
                 <div class="d-none d-xl-block">
                     <div class="dropdown">
                     <button class="btn my-button dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-theme="dark" aria-expanded="false">
-                        <img src="../assets/Whiteperson.svg" color="white" width="20" height="25">
+                        <img src="/Whiteperson.svg" color="white" width="20" height="25">
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li class="ms-1"><div class="dropstart">

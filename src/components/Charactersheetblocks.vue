@@ -24,11 +24,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Stwórz kartę postaci</h2>
-                            <img class="d-block mx-auto" src="../assets/dndspellbookicon.png" width="50" height="50">
+                            <img class="d-block mx-auto" src="/dndspellbookicon.png" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Stwórz kartę postaci</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/dndspellbookicon.png" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/dndspellbookicon.png" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -46,11 +46,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Obejrzyj karty postaci</h2>
-                            <img class="d-block mx-auto" src="../assets/spiked-dragon-headwhite.svg" width="50" height="50">
+                            <img class="d-block mx-auto" src="/spiked-dragon-headwhite.svg" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Obejrzyj karty postaci</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/spiked-dragon-headwhite.svg" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/spiked-dragon-headwhite.svg" width="50" height="50">
                         </div>
                     </div>
                 </router-link>

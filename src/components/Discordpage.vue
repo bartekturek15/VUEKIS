@@ -114,7 +114,7 @@
       }
 #discordpage {
     min-height: 75vh;
-    background-image: url("../assets/banerdnd.png");
+    background-image: url("/banerdnd.png");
     background-size: 100% 100%;
 }
 

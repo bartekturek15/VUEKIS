@@ -111,7 +111,7 @@
       }
 #problem {
     min-height: 75vh;
-    background-image: url("../assets/dnd-campaigns.png");
+    background-image: url("/dnd-campaigns.png");
     background-size: 100% 100%;
 }
 

@@ -14,7 +14,7 @@
                     class="col-lg-3 p-0 d-none d-xl-block">
                 <router-link style="text-decoration: none" to="/TworzenieElementow">
                 <div class="card mt-5 mx-auto" style="width: 18rem;">
-                    <img src="../assets/3.png" class="card-img-top" alt="...">
+                    <img src="/3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5>{{firstSolutionTitle}}</h5>
                         <p class="card-text">Stwórz i dodaj do bazy danych elementy D&D. Takie jak klasy czy czary.</p>
@@ -33,7 +33,7 @@
                         class="col-lg-3 p-0 d-none d-xl-block">
                     <router-link style="text-decoration: none" to="/BazaDanychDnD">
                         <div class="card mt-5 mx-auto" style="width: 18rem;">
-                            <img src="../assets/1.png" class="card-img-top" alt="...">
+                            <img src="/1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5>{{secondSolutionTitle}}</h5>
                                 <p class="card-text">Przeglądaj elementy D&D stworzone przez innych użytkowników.</p>
@@ -53,7 +53,7 @@
                         class="col-lg-3 p-0 d-none d-xl-block">
                     <router-link style="text-decoration: none" to="/KartaPostaci">
                         <div class="card mx-auto mt-5" style="width: 18rem;">
-                            <img src="../assets/4.png" class="card-img-top" alt="...">
+                            <img src="/4.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5>{{thirdSolutionTitle}}</h5>
                                 <p class="card-text">Stwórz i wypełnij kartę postaci do swojej następnej gry D&D.<br><br></p>
@@ -73,7 +73,7 @@
                         class="col-lg-3 p-0 d-none d-xl-block">
                     <router-link style="text-decoration: none" to="/SesjaOnline">
                         <div class="card mx-auto mt-5 mb-5" style="width: 18rem;">
-                            <img src="../assets/2.png" class="card-img-top" alt="...">
+                            <img src="/2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5>{{fourthSolutionTitle}}</h5>
                                 <p class="card-text">Forum, na którym możesz wyszukiwać i szukać osób do gry D&D.</p>
@@ -94,7 +94,7 @@
                             class="col-md-6 p-0">
                         <router-link style="text-decoration: none" to="/TworzenieElementow">
                             <div class="card mx-auto mt-5 me-md-5" style="width: 18rem;">
-                                <img src="../assets/3.png" class="card-img-top" alt="...">
+                                <img src="/3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5>{{firstSolutionTitle}}</h5>
                                     <p class="card-text">Stwórz i dodaj do bazy danych elementy D&D. Takie jak klasy czy czary.</p>
@@ -114,7 +114,7 @@
                             class="col-md-6 p-0 d-xl-none">
                         <router-link style="text-decoration: none" to="/BazaDanychDnD">
                             <div class="card mx-auto mt-5 ms-md-5" style="width: 18rem;">
-                                <img src="../assets/1.png" class="card-img-top" alt="...">
+                                <img src="/1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5>{{secondSolutionTitle}}</h5>
                                     <p class="card-text">Przeglądaj elementy D&D stworzone przez innych użytkowników.</p>
@@ -136,7 +136,7 @@
                             class="col-md-6 p-0">
                         <router-link style="text-decoration: none" to="/KartaPostaci">
                             <div class="card mx-auto mt-4 me-md-5" style="width: 18rem;">
-                                <img src="../assets/4.png" class="card-img-top" alt="...">
+                                <img src="/4.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5>{{thirdSolutionTitle}}</h5>
                                     <p class="card-text">Stwórz i wypełnij kartę postaci do swojej następnej gry D&D.<br><br></p>
@@ -156,7 +156,7 @@
                             class="col-md-6 p-0 d-xl-none">
                         <router-link style="text-decoration: none" to="/SesjaOnline">
                             <div class="card mx-auto mt-4 mb-5 ms-md-5" style="width: 18rem;">
-                                <img src="../assets/2.png" class="card-img-top" alt="...">
+                                <img src="/2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5>{{fourthSolutionTitle}}</h5>
                                     <p class="card-text">Forum, na którym możesz wyszukiwać i szukać osób do gry D&D.</p>

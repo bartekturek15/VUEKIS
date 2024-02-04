@@ -24,11 +24,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Czary</h2>
-                            <img class="d-block mx-auto" src="../assets/dndspellbookicon.png" width="50" height="50">
+                            <img class="d-block mx-auto" src="/dndspellbookicon.png" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Czary</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/dndspellbookicon.png" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/dndspellbookicon.png" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -46,11 +46,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Przeciwnicy</h2>
-                            <img class="d-block mx-auto" src="../assets/spiked-dragon-headwhite.svg" width="50" height="50">
+                            <img class="d-block mx-auto" src="/spiked-dragon-headwhite.svg" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Przeciwnicy</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/spiked-dragon-headwhite.svg" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/spiked-dragon-headwhite.svg" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -68,11 +68,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Przedmioty</h2>
-                            <img class="d-block mx-auto" src="../assets/potion-svgrepo-com.svg" width="50" height="50">
+                            <img class="d-block mx-auto" src="/potion-svgrepo-com.svg" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Przedmioty</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/potion-svgrepo-com.svg" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/potion-svgrepo-com.svg" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -90,11 +90,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Rasy</h2>
-                            <img class="d-block mx-auto" src="../assets/elf_4243164.png" width="50" height="50">
+                            <img class="d-block mx-auto" src="/elf_4243164.png" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Rasy</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/elf_4243164.png" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/elf_4243164.png" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -112,11 +112,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Podrasy</h2>
-                            <img class="d-block mx-auto" src="../assets/woman-elf-facewhite.svg" width="50" height="50">
+                            <img class="d-block mx-auto" src="/woman-elf-facewhite.svg" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Podrasy</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/woman-elf-facewhite.svg" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/woman-elf-facewhite.svg" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -134,11 +134,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Klasy</h2>
-                            <img class="d-block mx-auto" src="../assets/dndclassicon.png" width="50" height="50">
+                            <img class="d-block mx-auto" src="/dndclassicon.png" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Klasy</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/dndclassicon.png" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/dndclassicon.png" width="50" height="50">
                         </div>
                     </div>
                 </router-link>
@@ -156,11 +156,11 @@
                     <div class="card p-4 bg-white">
                         <div class="d-none d-lg-block text-center">
                             <h2 class="d-block">Podklasy</h2>
-                            <img class="d-block mx-auto" src="../assets/dndsubclassicon.jpeg" width="50" height="50">
+                            <img class="d-block mx-auto" src="/dndsubclassicon.jpeg" width="50" height="50">
                         </div>
                         <div class="d-lg-none d-flex justify-content-between">
                             <h2 class="d-lg-none d-md-block">Podklasy</h2>
-                            <img class="d-lg-none d-md-block" src="../assets/dndsubclassicon.jpeg" width="50" height="50">
+                            <img class="d-lg-none d-md-block" src="/dndsubclassicon.jpeg" width="50" height="50">
                         </div>
                     </div>
                 </router-link>

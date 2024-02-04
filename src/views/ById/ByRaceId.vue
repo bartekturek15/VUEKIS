@@ -2,20 +2,20 @@
     <div class="container border-bottom">
         <router-link :to="linked">
             <button style="color: rgba(255, 255, 255, 0.950);" class="btn mt-4 ms-5 align-text-center fs-4 mb-1" type="button" >
-                <img src="../../assets/chevron-leftwhite.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
+                <img src="/chevron-leftwhite.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
                  Wróć
             </button>
         </router-link>
         <button v-if="this.delete" style="color: rgba(255, 255, 255, 0.800);" class="btn mt-4 ms-5 align-text-center fs-4 mb-1" type="button" @click="deleted()">
-                <img src="../../assets/pencil-squarewhite.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
+                <img src="/pencil-squarewhite.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
                 Usuń
             </button>
         <button style="color: rgba(255, 255, 255, 0.800);" v-if="!this.result" class="btn mt-4 ms-5 align-text-center fs-4  mb-1" type="button" @click="upVote(); changeUpvote()">
-            <img src="../../assets/heartwhit.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
+            <img src="/heartwhit.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
             Dodaj do ulubionych
         </button>
         <button style="color: rgba(255, 255, 255, 0.800);" v-if="this.result" class="btn mt-4 ms-5 align-text-center fs-4  mb-1" type="button" @click="upVote(); changeUpvote()">
-            <img src="../../assets/heartwhitefull.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
+            <img src="/heartwhitefull.svg" color="white" width="30" height="35" class="d-inline-block align-text-center">
             Odejmij od ulubionych
         </button>
     </div>
